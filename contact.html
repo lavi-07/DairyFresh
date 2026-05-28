@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - DairyFresh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>DairyFresh</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#products">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        
+        <div class="info-item">
+          <div class="info-label">📧 Email</div>
+          <div class="info-text">info@dairyfresh.com</div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-label">📞 Phone</div>
+          <div class="info-text">+91-9876-543-210</div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-label">📍 Address</div>
+          <div class="info-text">123 Dairy Lane, Agro Complex<br>City, State 12345<br>India</div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-label">⏰ Business Hours</div>
+          <div class="info-text">Mon - Sun: 6:00 AM - 9:00 PM</div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-label">🚚 Delivery</div>
+          <div class="info-text">Free delivery on orders above ₹500</div>
+        </div>
+      </div>
+
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <textarea id="messageBox" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <div id="message"></div>
+  </section>
+
+  <footer>
+    <p>© 2026 DairyFresh | Quality Dairy Products for Every Family</p>
+  </footer>
+
+  <script src="contact-script.js"></script>
+
+</body>
+</html>
